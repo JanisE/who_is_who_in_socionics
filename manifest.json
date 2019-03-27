@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "Who Is Who in Socionics",
+    "description": "Adds socionics type after known names on a page",
+    "author": "Jānis Elmeris",
+    "version": "1.0.0",
+    "options_ui": {
+        "page": "ui/settings.html"
+    },
+    "browser_action": {
+        "default_icon": "ui/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*",
+                "file:///*/*"
+            ],
+            "js": [
+                "src/content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "48": "ui/icon.png",
+        "64": "ui/icon64.png"
+    }
+}

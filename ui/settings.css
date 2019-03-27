@@ -1,0 +1,21 @@
+h4 {
+  margin: 10px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 600px;
+  height: 460px;
+}
+
+.buttons {
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}

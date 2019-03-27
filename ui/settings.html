@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Iestatījumi - Kurš ir kurš socionikā</title>
+	<link rel="stylesheet" type="text/css" href="settings.css">
+</head>
+<body>
+<form>
+	<div class="buttons">
+		<button type="button" class="save">Saglabāt</button> <span class="info_saved hidden">Ir saglabāts.</span>
+	</div>
+
+	<p>Ievadiet tipu un atbilstošo personu sarakstu lodziņā (paraugs zemāk) un spiediet &quot;Saglabāt&quot;!</p>
+
+	<textarea name="sociotypes"></textarea>
+
+	<h3>Piemērs:</h3>
+
+	<textarea name="sociotypes_sample" readonly="readonly"># Rindās, kas sākas ar restīti, var rakstīt piezīmes,
+# tās netiks izmantotas aizvietošanā.
+
+jeseņins
+- Baraks Obama
+- Hanss Kristians Andersens
+
+# Katru aizvietojamo personu raksta savā rindiņā,
+# priekšā pieliekot "-" vai "*":
+
+maksims
+* Hilarija Klintone
+* Vladimirs Putins
+
+
+# Tukšas rindiņas aizvietošanu neietekmē.
+# Tipi var būt sadalīti vairākās porcijās / atkārtoties:
+jeseņins
+- Māte Terēze
+	</textarea>
+</form>
+<script src="settings.js"></script>
+</body>
+</html>
