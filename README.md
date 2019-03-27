@@ -1,6 +1,6 @@
 # Who Is Who in Socionics
 
-Adds socionics type in parenthesis after a person's name.
+Given a list of people names and their socionics types, adds the corresponding type in parenthesis after each occurence of a person's name on a page.
 
 Who is of which socionics type – you're filling in the extension's settings yourself, of course.
 
@@ -8,7 +8,7 @@ The code is built upon https://github.com/pelmers/text-rewriter mainly by removi
 
 ## Install
 
-* For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/) TODO
+* For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/who-is-who-in-socionics/)
 * For [Chrome](https://chrome.google.com/webstore/detail/) TODO
 
 ## Usage
@@ -39,9 +39,13 @@ IEI
 - Mother Teresa
 ```
 
+# Kurš ir kurš socionikā
+
+Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz tiem iekavās attiecīgo socionikas tipu.
+
 ## Instalēšana
 
-* Pārlūkam [Firefox](https://addons.mozilla.org/en-US/firefox/addon/) TODO
+* Pārlūkam [Firefox](https://addons.mozilla.org/lv/firefox/addon/who-is-who-in-socionics/)
 * Pārlūkam [Chrome](https://chrome.google.com/webstore/detail/) TODO
 
 ## Lietošana
