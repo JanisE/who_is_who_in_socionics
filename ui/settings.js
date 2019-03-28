@@ -109,5 +109,5 @@ document.addEventListener('DOMContentLoaded', () =>
 	document.querySelector('.info_saved').textContent = chrome.i18n.getMessage('Saved');
 	document.querySelector('textarea[name="sociotypes_sample"]').value = chrome.i18n.getMessage('ExampleContent');
 	const h3 = document.querySelector('h3');
-	h3.innerHTML = h3.innerHTML.replace('{Example}', chrome.i18n.getMessage('Example'));
+	h3.textContent = h3.textContent.replace('{Example}', chrome.i18n.getMessage('Example'));
 });
