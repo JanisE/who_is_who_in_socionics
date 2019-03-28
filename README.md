@@ -13,9 +13,9 @@ The code is built upon https://github.com/pelmers/text-rewriter mainly by removi
 
 ## Usage
 
-Fill in the type and person list in the text box, and click on `Saglabāt`.
+Fill in the type and person list in the text box, and click on `Save`.
 
-Configuration sample:
+Configuration example:
 
 ```
 # You can write notes on lines that start with a hash symbol,
@@ -25,16 +25,16 @@ IEI
 - Barack Obama
 - Hans Christian Andersen
 
-# Katru aizvietojamo personu raksta savā rindiņā,
-# priekšā pieliekot "-" vai "*":
+# Each person name goes on its own line,
+# prefixed by "-" or "*":
 
 LSI
 * Hillary Clinton
 * Vladimir Putin
 
 
-# Tukšas rindiņas aizvietošanu neietekmē.
-# Tipi var būt sadalīti vairākās porcijās / atkārtoties:
+# Empty lines have no effect on the replacer.
+# Types may be repeated (with a different list of people):
 IEI
 - Mother Teresa
 ```
@@ -50,7 +50,7 @@ Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz
 
 ## Lietošana
 
-Ievadiet tipu un atbilstošo personu sarakstu lodziņā (paraugs zemāk) un spiediet &quot;Saglabāt&quot;!</p>
+Ievadiet tipu un atbilstošo personu sarakstu lodziņā (piemērs zemāk) un spiediet &quot;Saglabāt&quot;!</p>
 
 Konfigurācijas piemērs:
 

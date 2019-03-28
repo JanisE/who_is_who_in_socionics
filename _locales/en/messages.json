@@ -1,0 +1,26 @@
+{
+  "AddonDescription": {
+    "message": "Adds socionics type after known names on a page"
+  },
+  "AddonName":  {
+    "message": "Who Is Who in Socionics"
+  },
+  "Example": {
+    "message": "Example"
+  },
+  "Instructions": {
+    "message": "Fill in the type and person list in the text box (see the example below), and click on \"Save\"."
+  },
+  "ExampleContent": {
+    "message": "# You can write notes on lines that start with a hash symbol,\n# they will be ignored for text replacement.\n\nIEI\n- Barack Obama\n- Hans Christian Andersen\n\n# Each person name goes on its own line,\n# prefixed by \"-\" or \"*\":\n\nLSI\n* Hillary Clinton\n* Vladimir Putin\n\n\n# Empty lines have no effect on the replacer.\n# Types may be repeated (with a different list of people):\nIEI\n- Mother Teresa"
+  },
+  "Save": {
+    "message": "Save"
+  },
+  "Saved": {
+    "message": "Saved."
+  },
+  "Settings": {
+    "message": "Settings"
+  }
+}

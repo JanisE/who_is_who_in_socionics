@@ -101,4 +101,13 @@ document.addEventListener('DOMContentLoaded', () =>
 	const textarea = document.querySelector('textarea[name="sociotypes"]');
 	textarea.addEventListener('keyup', clearStatusMessage);
 	textarea.addEventListener('paste', clearStatusMessage);
+
+	// Fill in translatable texts.
+	document.title = chrome.i18n.getMessage('Settings') + ' - ' + chrome.i18n.getMessage('AddonName');
+	document.querySelector('button.save').textContent = chrome.i18n.getMessage('Save');
+	document.querySelector('p').textContent = chrome.i18n.getMessage('Instructions');
+	document.querySelector('.info_saved').textContent = chrome.i18n.getMessage('Saved');
+	document.querySelector('textarea[name="sociotypes_sample"]').value = chrome.i18n.getMessage('ExampleContent');
+	const h3 = document.querySelector('h3');
+	h3.innerHTML = h3.innerHTML.replace('{Example}', chrome.i18n.getMessage('Example'));
 });
