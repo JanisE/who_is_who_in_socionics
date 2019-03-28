@@ -35,7 +35,7 @@ api.runtime.onMessage.addListener(function (message, sender)
 
 	case 'who_is_who_in_socionics.replacement_count_updated':
 		api.browserAction.setBadgeText({
-			text: message.totalReplacedCount.toString(),
+			text: message.totalReplacedCount > 9999 ? 9999 : message.totalReplacedCount,
 			tabId: sender.tab.id
 		});
 		//api.browserAction.setBadgeBackgroundColor({color: [102, 102, 102, 255]});
