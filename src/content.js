@@ -23,7 +23,7 @@ const targetQueue = new Set();
 
 function prepareReplacements (sociotypesParsed)
 {
-	replacements = sociotypesParsed;console.log(replacements);
+	replacements = sociotypesParsed;
 
 	// Prepare the Regexp objects.
 	replacements.forEach((replacement) =>

@@ -35,14 +35,14 @@ api.runtime.onMessage.addListener(function (message, sender)
 
 	case 'who_is_who_in_socionics.replacement_count_updated':
 		api.browserAction.setBadgeText({
-			text: message.totalCount.toString(),
+			text: message.totalReplacedCount.toString(),
 			tabId: sender.tab.id
 		});
 		//api.browserAction.setBadgeBackgroundColor({color: [102, 102, 102, 255]});
 	}
 });
 
-// When enable state changes, change the icon and update the current tab.
+// When toggling the service, change the icon and update the current tab.
 api.browserAction.onClicked.addListener(tab =>
 {
 	storage.get({paused: false}, function (data)
