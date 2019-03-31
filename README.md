@@ -9,7 +9,7 @@ The code is built upon https://github.com/pelmers/text-rewriter mainly by removi
 ## Install
 
 * For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/who-is-who-in-socionics/)
-* For [Chrome](https://chrome.google.com/webstore/detail/) TODO
+* For [Chrome](https://chrome.google.com/webstore/detail/who-is-who-in-socionics/edgafhhkoaeojfhofmfnkffppnjbboli)
 
 ## Usage
 
@@ -46,7 +46,7 @@ Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz
 ## Instalēšana
 
 * Pārlūkam [Firefox](https://addons.mozilla.org/lv/firefox/addon/who-is-who-in-socionics/)
-* Pārlūkam [Chrome](https://chrome.google.com/webstore/detail/) TODO
+* Pārlūkam [Chrome](https://chrome.google.com/webstore/detail/who-is-who-in-socionics/edgafhhkoaeojfhofmfnkffppnjbboli)
 
 ## Lietošana
 
