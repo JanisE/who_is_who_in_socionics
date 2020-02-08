@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+<form>
+	<div class="browser-style service_enabled">
+		<input id="service_enabled" name="service_status" type="radio" value="enabled" />
+		<label for="service_enabled">{Running}</label>
+	</div>
+
+	<div class="browser-style service_disabled">
+		<input id="service_disabled" name="service_status" type="radio" value="disabled" />
+		<label for="service_disabled">{Paused}</label>
+	</div>
+
+	<hr>
+
+	<div class="browser-style load_from_poll">
+		<div class="error_message hidden">
+			<p class="poll_not_found">{PollNotFound}</p>
+			<p class="open_poll_then_load">{OpenPollThenLoad}</p>
+		</div>
+
+		<div class="label">{LoadDataFromFacebookPoll}:</div>
+		<button type="button">{Load}</button>
+		<span class="progress_indicator hidden">{Loading}</span>
+	</div>
+</form>
+<script src="popup.js"></script>
+</body>
+</html>

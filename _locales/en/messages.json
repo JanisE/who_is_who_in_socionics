@@ -5,14 +5,41 @@
   "AddonName":  {
     "message": "Who Is Who in Socionics"
   },
+  "AutoloadedTypes": {
+    "message": "Automatically loaded types"
+  },
+  "Clear": {
+    "message": "Clear"
+  },
   "Example": {
     "message": "Example"
+  },
+  "ExampleContent": {
+    "message": "# You can write notes on lines that start with a hash symbol,\n# they will be ignored for text replacement.\n\nIEI\n- Barack Obama\n- Hans Christian Andersen\n\n# Each person name goes on its own line,\n# prefixed by \"-\" or \"*\":\n\nLSI\n* Hillary Clinton\n* Vladimir Putin\n\n\n# Empty lines have no effect on the replacer.\n# Types may be repeated (with a different list of people):\nIEI\n- Mother Teresa"
   },
   "Instructions": {
     "message": "Fill in the type and person list in the text box (see the example below), and click on \"Save\"."
   },
-  "ExampleContent": {
-    "message": "# You can write notes on lines that start with a hash symbol,\n# they will be ignored for text replacement.\n\nIEI\n- Barack Obama\n- Hans Christian Andersen\n\n# Each person name goes on its own line,\n# prefixed by \"-\" or \"*\":\n\nLSI\n* Hillary Clinton\n* Vladimir Putin\n\n\n# Empty lines have no effect on the replacer.\n# Types may be repeated (with a different list of people):\nIEI\n- Mother Teresa"
+  "Load": {
+    "message": "Load"
+  },
+  "LoadDataFromFacebookPoll": {
+    "message": "Load types from a Facebook poll"
+  },
+  "Loading": {
+    "message": "Loading..."
+  },
+  "OpenPollThenLoad": {
+    "message": "Open the Facebook poll and then click the button to load the data."
+  },
+  "Paused": {
+    "message": "Paused"
+  },
+  "PollNotFound": {
+    "message": "Could not find Facebook poll in the active tab to load from."
+  },
+  "Running": {
+    "message": "Running"
   },
   "Save": {
     "message": "Save"

@@ -4,13 +4,17 @@
     "name": "__MSG_AddonName__",
     "description": "__MSG_AddonDescription__",
     "author": "Jānis Elmeris",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "options_ui": {
         "page": "ui/settings.html"
     },
+    "options_page": "ui/settings.html",
     "browser_action": {
         "default_icon": "ui/icon.png",
-        "default_title": "__MSG_AddonName__"
+        "default_title": "__MSG_AddonName__",
+        "default_popup": "ui/popup.html",
+        "browser_style": true,
+        "chrome_style": true
     },
     "content_scripts": [
         {
@@ -20,7 +24,9 @@
                 "file:///*/*"
             ],
             "js": [
-                "src/content.js"
+                "src/content.js",
+                "src/jquery-3.4.1.min.js",
+                "src/collect.js"
             ],
             "run_at": "document_end"
         }

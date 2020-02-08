@@ -5,14 +5,41 @@
   "AddonName":  {
     "message": "Kurš ir kurš socionikā"
   },
+  "AutoloadedTypes": {
+    "message": "Automātiski ielādētie tipi"
+  },
+  "Clear": {
+    "message": "Notīrīt"
+  },
   "Example": {
     "message": "Piemērs"
+  },
+  "ExampleContent": {
+    "message": "# Rindās, kas sākas ar restīti, var rakstīt piezīmes,\n# tās netiks izmantotas aizvietošanā.\n\njeseņins\n- Baraks Obama\n- Hanss Kristians Andersens\n\n# Katru aizvietojamo personu raksta savā rindiņā,\n# priekšā pieliekot \"-\" vai \"*\":\n\nmaksims\n* Hilarija Klintone\n* Vladimirs Putins\n\n\n# Tukšas rindiņas aizvietošanu neietekmē.\n# Tipi var būt sadalīti vairākās porcijās / atkārtoties:\njeseņins\n- Māte Terēze"
   },
   "Instructions": {
     "message": "Ievadiet tipu un atbilstošo personu sarakstu lodziņā (piemērs zemāk) un spiediet \"Saglabāt\"!"
   },
-  "ExampleContent": {
-    "message": "# Rindās, kas sākas ar restīti, var rakstīt piezīmes,\n# tās netiks izmantotas aizvietošanā.\n\njeseņins\n- Baraks Obama\n- Hanss Kristians Andersens\n\n# Katru aizvietojamo personu raksta savā rindiņā,\n# priekšā pieliekot \"-\" vai \"*\":\n\nmaksims\n* Hilarija Klintone\n* Vladimirs Putins\n\n\n# Tukšas rindiņas aizvietošanu neietekmē.\n# Tipi var būt sadalīti vairākās porcijās / atkārtoties:\njeseņins\n- Māte Terēze"
+  "Load": {
+    "message": "Ielasīt"
+  },
+  "LoadDataFromFacebookPoll": {
+    "message": "Ielasīt tipus no Facebook aptaujas"
+  },
+  "Loading": {
+    "message": "Ielasa..."
+  },
+  "OpenPollThenLoad": {
+    "message": "Vispirms atveriet aptauju un tad spiediet pogu, lai ielādētu datus!"
+  },
+  "Paused": {
+    "message": "Apturēts"
+  },
+  "PollNotFound": {
+    "message": "Atvērtajā lapā nevar atrast Facebook aptauju, no kā datus ielādēt."
+  },
+  "Running": {
+    "message": "Darbojas"
   },
   "Save": {
     "message": "Saglabāt"

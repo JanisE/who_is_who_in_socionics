@@ -242,14 +242,16 @@ function stopReplacementService ()
 
 
 
-api.runtime.onMessage.addListener(function (message)
+api.runtime.onMessage.addListener(function (message, sender, sendResponse)
 {
 	switch (message.event) {
 	case 'who_is_who_in_socionics.service_is_enabled':
 		startReplacementService(message.sociotypes_parsed);
+		sendResponse();
 		break;
 	case 'who_is_who_in_socionics.service_is_disabled':
 		stopReplacementService();
+		sendResponse();
 	}
 });
 

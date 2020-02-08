@@ -8,6 +8,14 @@ textarea {
   height: 460px;
 }
 
+textarea[name="sociotypes_sample"] {
+  height: 380px;
+}
+
+textarea[name="sociotypes_autoloaded"] {
+  height: 150px;
+}
+
 .buttons {
   margin-bottom: 10px;
 }

@@ -1,0 +1,33 @@
+body {
+	padding: 1rem;
+}
+
+hr {
+	margin: 1rem 0;
+}
+
+p {
+	margin: 0 0 0.5rem;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.load_from_poll {
+	width: 12rem;
+}
+
+.load_from_poll div {
+	margin-bottom: 0.5rem;
+}
+
+.load_from_poll .error_message {
+	margin-bottom: 1rem;
+	color: #550000;
+}
+
+.service_enabled {
+	margin-bottom: 5px;
+}

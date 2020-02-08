@@ -2,9 +2,9 @@
 
 Given a list of people names and their socionics types, adds the corresponding type in parenthesis after each occurence of a person's name on a page.
 
-Who is of which socionics type – you're filling in the extension's settings yourself, of course.
+Who is of which socionics type – you set it in the extension's settings yourself. You may also load data from a Facebook poll along with people list added manually.
 
-The code is built upon https://github.com/pelmers/text-rewriter mainly by removing a lot of functionality, to make it even simpler to use – for this specific use case.
+The code was initially built upon https://github.com/pelmers/text-rewriter mainly by removing a lot of functionality, to make it even simpler to use – for this specific use case.
 
 ## Install
 
@@ -13,7 +13,9 @@ The code is built upon https://github.com/pelmers/text-rewriter mainly by removi
 
 ## Usage
 
-Fill in the type and person list in the text box, and click on `Save`.
+### Create person list manually
+
+In the extension settings page, fill in the type and person list in the text box, and click on `Save`.
 
 Configuration example:
 
@@ -39,9 +41,18 @@ IEI
 - Mother Teresa
 ```
 
+### Load data from a Facebook poll
+
+1. Open a Facebook poll post;
+2. expand it so you see all its options (link "X more options");
+3. click on the extension's icon;
+4. click on the "Load" button under "Load types from a Facebook poll".
+
+This data will not affect the manual list. Any successful subsequent data loads will overwrite the previous one.
+
 # Kurš ir kurš socionikā
 
-Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz tiem iekavās attiecīgo socionikas tipu.
+Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz tiem iekavās attiecīgo socionikas tipu. Vārdus var gan pats norādīt brīvā konfigurācijā, gan arī ielādēt no Facebook aptaujas.
 
 ## Instalēšana
 
@@ -49,6 +60,8 @@ Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz
 * Pārlūkam [Chrome](https://chrome.google.com/webstore/detail/who-is-who-in-socionics/edgafhhkoaeojfhofmfnkffppnjbboli?hl=lv)
 
 ## Lietošana
+
+### Personu saraksta rakstīšana pašam 
 
 Ievadiet tipu un atbilstošo personu sarakstu lodziņā (piemērs zemāk) un spiediet &quot;Saglabāt&quot;!</p>
 
@@ -75,3 +88,12 @@ maksims
 jeseņins
 - Māte Terēze
 ```
+
+### Datu ielasīšana no Facebook aptaujas
+
+1. Atveriet Facebook ierakstu ar aptauju;
+2. izvērsiet aptauju, lai būtu redzamas visas aptaujas izvēles (saite "X more options");
+3. uzklikšķiniet uz paplašinājuma ikonas;
+4. uzklikšķiniet uz pogas "Ielasīt" zem "Ielasīt tipus no Facebook aptaujas".
+
+No aptaujas ielasītie dati neietekmē paša ierakstītos datus. Sekmīgi ielasīti aptaujas dati aizvietos iepriekš ielasītos datus.
