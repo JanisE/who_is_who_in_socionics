@@ -13,7 +13,7 @@ function collectLabels (jqSet)
 function doCollectTypes (onDone)
 {
 	const poll = $('div[data-testid="post_message"]').parent().find('.mtm');
-	const pollOptions = poll.find('input[type="checkbox"][aria-label]');
+	const pollOptions = poll.find('input[type="checkbox"][aria-label],input[type="radio"][aria-label]');
 
 	if (pollOptions.length < 1) {
 		onDone({collected: false});

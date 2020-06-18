@@ -4,7 +4,7 @@
     "name": "__MSG_AddonName__",
     "description": "__MSG_AddonDescription__",
     "author": "Jānis Elmeris",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "options_ui": {
         "page": "ui/settings.html"
     },
