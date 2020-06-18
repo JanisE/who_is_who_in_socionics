@@ -71,9 +71,9 @@ Konfigurācijas piemērs:
 # Rindās, kas sākas ar restīti, var rakstīt piezīmes,
 # tās netiks izmantotas aizvietošanā.
 
-jeseņins
+draizers
 - Baraks Obama
-- Hanss Kristians Andersens
+- Klints Īstvuds
 
 # Katru aizvietojamo personu raksta savā rindiņā,
 # priekšā pieliekot "-" vai "*":
