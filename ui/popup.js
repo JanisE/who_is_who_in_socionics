@@ -24,7 +24,7 @@ document.querySelector('.load_from_poll button').addEventListener('click', () =>
 	api.tabs.query({active: true, currentWindow: true}, function (tabs)
 	{
 		api.tabs.sendMessage(tabs[0].id, {event: 'who_is_who_in_socionics.collection_is_requested'}, function (response) {
-			if (response.collected) {
+			if (response && response.collected) {
 				window.close()
 			}
 			else {

@@ -11,11 +11,20 @@
   "Clear": {
     "message": "Notīrīt"
   },
+  "Close": {
+    "message": "Aizvērt"
+  },
+  "ErrorGettingVoters": {
+    "message": "Kļūda, skaitot balsis."
+  },
   "Example": {
     "message": "Piemērs"
   },
   "ExampleContent": {
-    "message": "# Rindās, kas sākas ar restīti, var rakstīt piezīmes,\n# tās netiks izmantotas aizvietošanā.\n\njeseņins\n- Baraks Obama\n- Hanss Kristians Andersens\n\n# Katru aizvietojamo personu raksta savā rindiņā,\n# priekšā pieliekot \"-\" vai \"*\":\n\nmaksims\n* Hilarija Klintone\n* Vladimirs Putins\n\n\n# Tukšas rindiņas aizvietošanu neietekmē.\n# Tipi var būt sadalīti vairākās porcijās / atkārtoties:\njeseņins\n- Māte Terēze"
+    "message": "# Rindās, kas sākas ar restīti, var rakstīt piezīmes,\n# tās netiks izmantotas aizvietošanā.\n\njeseņins\n- Terijs Prečets\n- Hanss Kristians Andersens\n\n# Katru aizvietojamo personu raksta savā rindiņā,\n# priekšā pieliekot \"-\" vai \"*\":\n\nmaksims\n* Hilarija Klintone\n* Vladimirs Putins\n\n\n# Tukšas rindiņas aizvietošanu neietekmē.\n# Tipi var būt sadalīti vairākās porcijās / atkārtoties:\njeseņins\n- Māte Terēze"
+  },
+  "GettingVotersFor": {
+    "message": "Skaita balsis par: "
   },
   "Instructions": {
     "message": "Ievadiet tipu un atbilstošo personu sarakstu lodziņā (piemērs zemāk) un spiediet \"Saglabāt\"!"
@@ -38,6 +47,12 @@
   "PollNotFound": {
     "message": "Atvērtajā lapā nevar atrast Facebook aptauju, no kā datus ielādēt."
   },
+  "PollWasTooLarge": {
+    "message": "Aptauja ir pārāk liela, lai savāktu visus balsotājus. Balsotāju vākšana tika apturēta pirms beigām, lai izvairītos no Facebook pieprasījumu limita sasniegšanas."
+  },
+  "RequestLimitExceeded": {
+    "message": "Facebook īslaicīgi bloķējuši balsotāju saraksta pieprasījumus pārāk lielā pieprasījuma skaita dēļ. Mēģiniet vēlreiz pēc 24 stundām."
+  },
   "Running": {
     "message": "Darbojas"
   },
@@ -49,5 +64,8 @@
   },
   "Settings": {
     "message": "Iestatījumi"
+  },
+  "VotersCollected": {
+    "message": "Balsotāji ir saglabāti."
   }
 }

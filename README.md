@@ -13,6 +13,12 @@ The code was initially built upon https://github.com/pelmers/text-rewriter mainl
 
 ## Usage
 
+### Enable add-on's icon in the add-on toolbar, for Chrome
+
+In Chrome, the icon is not visible in the add-on toolbar, by default. In order to load poll data or get to the configuration editing easier, one must:
+1. click on the add-ons icon (a puzzle piece icon) on the right side of the toolbar;
+2. find "Who Is Who in Socionics" on the add-on list and click its pin icon "Pin Extension" to be active.
+
 ### Create person list manually
 
 In the extension settings page, fill in the type and person list in the text box, and click on `Save`.
@@ -24,7 +30,7 @@ Configuration example:
 # they will be ignored for text replacement.
 
 IEI
-- Barack Obama
+- Terry Pratchett
 - Hans Christian Andersen
 
 # Each person name goes on its own line,
@@ -43,10 +49,9 @@ IEI
 
 ### Load data from a Facebook poll
 
-1. Open a Facebook poll post;
-2. expand it so you see all its options (link "X more options");
-3. click on the extension's icon;
-4. click on the "Load" button under "Load types from a Facebook poll".
+1. Open a Facebook poll post (currently only polls with at least one option with more than 10 voters (more than one scrollable page of voters) supported);
+2. click on the extension's icon;
+3. click on the "Load" button under "Load types from a Facebook poll".
 
 This data will not affect the manual list. Any successful subsequent data loads will overwrite the previous one.
 
@@ -61,7 +66,13 @@ Lapā atrod vārdus, kas ir starp iestatījumos norādītajiem, un pieraksta aiz
 
 ## Lietošana
 
-### Personu saraksta rakstīšana pašam 
+### Iespējot paplašinājuma ikonu Chromē
+
+Lai ielādētu tipus no aptaujas un vieglāk tiktu pie tipu saraksta rediģēšanas, paplašinājuma ikonu vajag dabūt redzamu paplašinājumu rīkjoslā. Chrome ikonu pēc noklusējuma nepievieno, tāpēc pašam:
+1. jānoklikšķina uz paplašinājumu ikonas (puzles ikona);
+2. jāatrod sarakstā paplašinājums "Kurš ir kurš socionikā" un jānoklikšķina blakus uz piespraudes ikonas ("Piespraust paplašinājumu"), lai padarītu to aktīvu.
+
+### Personu saraksta rakstīšana pašam
 
 Ievadiet tipu un atbilstošo personu sarakstu lodziņā (piemērs zemāk) un spiediet &quot;Saglabāt&quot;!</p>
 
@@ -71,9 +82,9 @@ Konfigurācijas piemērs:
 # Rindās, kas sākas ar restīti, var rakstīt piezīmes,
 # tās netiks izmantotas aizvietošanā.
 
-draizers
-- Baraks Obama
-- Klints Īstvuds
+jeseņins
+- Terijs Prečets
+- Hanss Kristians Andersens
 
 # Katru aizvietojamo personu raksta savā rindiņā,
 # priekšā pieliekot "-" vai "*":
@@ -91,9 +102,8 @@ jeseņins
 
 ### Datu ielasīšana no Facebook aptaujas
 
-1. Atveriet Facebook ierakstu ar aptauju;
-2. izvērsiet aptauju, lai būtu redzamas visas aptaujas izvēles (saite "X more options");
-3. uzklikšķiniet uz paplašinājuma ikonas;
-4. uzklikšķiniet uz pogas "Ielasīt" zem "Ielasīt tipus no Facebook aptaujas".
+1. Atveriet Facebook ierakstu ar aptauju ();
+2. uzklikšķiniet uz paplašinājuma ikonas;
+3. uzklikšķiniet uz pogas "Ielasīt" zem "Ielasīt tipus no Facebook aptaujas".
 
 No aptaujas ielasītie dati neietekmē paša ierakstītos datus. Sekmīgi ielasīti aptaujas dati aizvietos iepriekš ielasītos datus.

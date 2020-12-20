@@ -11,11 +11,20 @@
   "Clear": {
     "message": "Clear"
   },
+  "Close": {
+    "message": "Close"
+  },
+  "ErrorGettingVoters": {
+    "message": "Error getting voters."
+  },
   "Example": {
     "message": "Example"
   },
   "ExampleContent": {
-    "message": "# You can write notes on lines that start with a hash symbol,\n# they will be ignored for text replacement.\n\nIEI\n- Barack Obama\n- Hans Christian Andersen\n\n# Each person name goes on its own line,\n# prefixed by \"-\" or \"*\":\n\nLSI\n* Hillary Clinton\n* Vladimir Putin\n\n\n# Empty lines have no effect on the replacer.\n# Types may be repeated (with a different list of people):\nIEI\n- Mother Teresa"
+    "message": "# You can write notes on lines that start with a hash symbol,\n# they will be ignored for text replacement.\n\nIEI\n- Terry Pratchett\n- Hans Christian Andersen\n\n# Each person name goes on its own line,\n# prefixed by \"-\" or \"*\":\n\nLSI\n* Hillary Clinton\n* Vladimir Putin\n\n\n# Empty lines have no effect on the replacer.\n# Types may be repeated (with a different list of people):\nIEI\n- Mother Teresa"
+  },
+  "GettingVotersFor": {
+    "message": "Counting votes for: "
   },
   "Instructions": {
     "message": "Fill in the type and person list in the text box (see the example below), and click on \"Save\"."
@@ -38,6 +47,12 @@
   "PollNotFound": {
     "message": "Could not find Facebook poll in the active tab to load from."
   },
+  "PollWasTooLarge": {
+    "message": "Poll was too large to collect all voters. Collection was stopped before all voters were collected to avoid hitting Facebook's request quota."
+  },
+  "RequestLimitExceeded": {
+    "message": "Further requests blocked due to too many rapid requests (Rate limit exceeded). Try again after 24 hours."
+  },
   "Running": {
     "message": "Running"
   },
@@ -49,5 +64,8 @@
   },
   "Settings": {
     "message": "Settings"
+  },
+  "VotersCollected": {
+    "message": "Voters are collected."
   }
 }
